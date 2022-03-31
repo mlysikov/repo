@@ -1,0 +1,2 @@
+- how-to-convert-utf8-text-to-windows1251 shows how to correctly convert text from UTF-8 to Windows-1251.
+- trying-to-solve-ora-00054.sql is an attempt to resolve ORA-00054 but without a robust solution.
