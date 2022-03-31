@@ -1,0 +1,4 @@
+- data-reconciliation-using-python-db shows how to reconcile data from multiple sources using Python. Reconciliation is performed on the database side.
+- data-reconciliation-using-spark-db shows how to reconcile data from multiple sources using PySpark. Reconciliation is performed on the Spark side.
+- recommendation-using-spark shows how to build a simple recommender system using Spark and the Alternating Least Square(ALS) algorithm.
+- recommendation-using-sql shows how to build a simple recommender system using just SQL.
