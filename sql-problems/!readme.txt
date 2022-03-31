@@ -1,0 +1,2 @@
+- finding-first-element-in-continuous-sequence.sql shows how to find the first element for each continuous sequence.
+- finding-gaps-in-data.sql shows how to find gaps in a certain sequence of dates. Output is a range (DATE_FROM-DATE_TO) of consecutive dates (without gaps).
