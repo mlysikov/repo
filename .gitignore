@@ -1,0 +1,12 @@
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore directories
+examples/
+.idea/
+__pycache__/
+venv/
+leetcode/
+
+# Ignore all other files
+*.log
