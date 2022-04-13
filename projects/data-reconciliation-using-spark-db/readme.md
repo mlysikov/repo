@@ -14,7 +14,7 @@ Environment:
 
 Step-by-step instructions:
 1. Copy the necessary files from Windows to Sandbox:
-pscp -P 2222 transactions.csv create-table.sqlconstant.py db_config.py reconciliation.py maria_dev@127.0.0.1:/home/maria_dev/
+pscp -P 2222 transactions.csv create-table.sql constant.py db_config.py reconciliation.py maria_dev@127.0.0.1:/home/maria_dev/
 
 2. Connect to MySQL, create database FIN_DATA, run a prepared script:
 mysql -u root -p
