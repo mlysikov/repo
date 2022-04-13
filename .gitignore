@@ -7,6 +7,10 @@ examples/
 __pycache__/
 venv/
 leetcode/
+installations/
+interview-questions/
+mongodb/
+mysql/
 
 # Ignore all other files
 *.log

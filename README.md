@@ -10,12 +10,12 @@ I'm currently learning Big Data, Apache Hadoop, and cloud-based (AWS) technologi
 
 Here is a list of my skills:
 - Programming languages: SQL, Python, PL/SQL
-- Relational databases: Oracle Database, MySQL, PostgreSQL, AWS Redshift
-- NoSQL databases: Cassandra, MongoDB
+- Relational databases: Oracle Database, MySQL, AWS Redshift
+- NoSQL databases: MongoDB
 - ETL tools: Informatica PowerCenter, AWS Glue
 - Apache Hadoop frameworks and tools: Hive, Spark, Sqoop, Flume, Kafka, Oozie, Airflow
 - BI tools: Tableau, SAP BO Information Design Tool
 
 How to reach me:
-- LinkedIn: https://www.linkedin.com/in/mikhail-lysikov-7675a021/
+- LinkedIn: https://www.linkedin.com/in/mlysikov/
 - Email: lyssikoff@mail.ru

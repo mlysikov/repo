@@ -14,7 +14,7 @@ Environment:
 
 Step-by-step instructions:
 1. Copy the necessary files from Windows to Sandbox:
-pscp -P 2222 C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-spark-db\transactions.csv  C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-spark-db\create-table.sql C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-spark-db\constant.py C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-spark-db\db_config.py C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-spark-db\reconciliation.py maria_dev@127.0.0.1:/home/maria_dev/
+pscp -P 2222 transactions.csv create-table.sqlconstant.py db_config.py reconciliation.py maria_dev@127.0.0.1:/home/maria_dev/
 
 2. Connect to MySQL, create database FIN_DATA, run a prepared script:
 mysql -u root -p

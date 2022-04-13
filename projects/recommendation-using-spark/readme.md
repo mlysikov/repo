@@ -11,7 +11,7 @@ Environment:
 
 Step-by-step instructions:
 1. Copy the necessary files from Windows to Sandbox:
-pscp -P 2222 C:\Users\mlysikov\Downloads\repo\projects\recommendation-using-spark\recommendation.py C:\Users\mlysikov\Downloads\repo\projects\recommendation-using-spark\films.csv maria_dev@127.0.0.1:/home/maria_dev/
+pscp -P 2222 recommendation.py films.csv maria_dev@127.0.0.1:/home/maria_dev/
 
 2. Create additional directories in HDFS:
 hadoop fs -mkdir input

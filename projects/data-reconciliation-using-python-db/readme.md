@@ -10,7 +10,7 @@ The Python application fully manages the ETL process but the reconciliation itse
 
 Step-by-step instructions:
 1. Run SQL script on Windows host machine (IP address can be different):
-sqlplus sys/oracle@192.168.56.101:1521/orcl as sysdba @C:\Users\mlysikov\Downloads\repo\projects\data-reconciliation-using-python-db\create-users.sql
+sqlplus sys/oracle@192.168.56.101:1521/orcl as sysdba @create-users.sql
 
 2. Run Python program on Windows host machine:
 python reconciliation.py
@@ -26,6 +26,5 @@ General:
 3. Inserts and reads data using stored procedures on the database side, not write SQL statements in Python.
 
 Performance:
-1. Try a pure Python approach. I would make ADAPTER_DB, ADAPTER_FILE return iterators, and PROCESSOR inserts data into the database.
-2. Read data from two adapters in parallel (2 threads).
-3. Read data from two adapters in parallel and chunks (e.g. 4 threads per adapter). Something like DBMS_PARALLEL_EXECUTE in Oracle.
+1. Use generators to read data from the database and file.
+2. Use multithreading (the threading module) to read data from two adapters.
