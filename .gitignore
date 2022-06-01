@@ -2,15 +2,9 @@
 Thumbs.db
 
 # Ignore directories
-examples/
 .idea/
 __pycache__/
 venv/
-leetcode/
-installations/
-interview-questions/
-mongodb/
-mysql/
 
 # Ignore all other files
 *.log
